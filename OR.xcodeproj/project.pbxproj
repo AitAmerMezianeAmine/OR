@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B337CDD29014DA40011F09A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B337CDC29014DA40011F09A /* Test.swift */; };
+		9B337CDF29014DD00011F09A /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B337CDE29014DD00011F09A /* TestFile.swift */; };
 		9B9EB7E829013F8D00ED369E /* ORApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EB7E729013F8D00ED369E /* ORApp.swift */; };
 		9B9EB7EA29013F8D00ED369E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EB7E929013F8D00ED369E /* ContentView.swift */; };
 		9B9EB7EC29013F8D00ED369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9EB7EB29013F8D00ED369E /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B337CDC29014DA40011F09A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9B337CDE29014DD00011F09A /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		9B9EB7E429013F8D00ED369E /* OR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9EB7E729013F8D00ED369E /* ORApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORApp.swift; sourceTree = "<group>"; };
 		9B9EB7E929013F8D00ED369E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9B9EB7E729013F8D00ED369E /* ORApp.swift */,
+				9B337CDC29014DA40011F09A /* Test.swift */,
 				9B9EB7E929013F8D00ED369E /* ContentView.swift */,
 				9B9EB7EB29013F8D00ED369E /* Assets.xcassets */,
 				9B9EB7ED29013F8D00ED369E /* Preview Content */,
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9B9EB7EE29013F8D00ED369E /* Preview Assets.xcassets */,
+				9B337CDE29014DD00011F09A /* TestFile.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9EB7EA29013F8D00ED369E /* ContentView.swift in Sources */,
+				9B337CDF29014DD00011F09A /* TestFile.swift in Sources */,
 				9B9EB7E829013F8D00ED369E /* ORApp.swift in Sources */,
+				9B337CDD29014DA40011F09A /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
